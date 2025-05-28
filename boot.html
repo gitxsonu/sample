@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div><a class="navbar-brand" href="#">Wecome!!</a></div>
+        <br />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Qualifications</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Achievements
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Image commmand  -->
+    <h2 class="nev">About me</h2>
+    <div class="about">
+      <img src="boot.jpg" alt="photo" class="pic" / >
+
+      <!-- about me section -->
+      <div class="me">
+        <h3>Hello!</h3>
+        <p class="me">
+          I'm Sonakshi, a passionate second-year Computer Science Engineering
+          student with a keen interest in technology and innovation. I'm
+          currently exploring various aspects of software development,
+          algorithms, and emerging technologies while building my foundation in
+          computer science fundamentals. Through my academic journey, I've been
+          developing both technical skills and problem-solving abilities that
+          I'm excited to showcase through my projects and experiences. I believe
+          in continuous learning and am always eager to take on new challenges
+          that push me to grow as a developer.
+        </p>
+      </div>
+    </div>
+    <!-- 3 cards of school, colleges -->
+    <h2 class="nev">Educational details</h2>
+    <div class="card-group">
+      <div class="card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStFlfM32rpir7gF59sTINmJ17Lq0dHAn9E9w&s"
+          class="school"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Anupama English School</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <a href="https://anupamaenglishschool.com/" class="btn btn-primary"
+            >VISIT WEBSITE</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="http://bgscollege.in/uploads/gallery/media/C5DR0001.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-titlea">BGS PU COLLEGE</h5>
+          <p class="me">
+            BGS PU College provides a positive and creative learning environment,both in college and within the wider community.
+          </p>
+          <a href="https://bgscollege.in/" class="btn btn-primary"
+            >VISIT WEBSITE</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://admissionkaro.com/wp-content/uploads/2017/03/dr-ambedkar-institute-of-technology-bangalore-dr-ait-fee-structure.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Dr. Ambedkar Institute of Technology</h5>
+          <p class="me">
+            Dr. Ambedkar Institute of Technology is the premier engineering college located in Bengaluru
+          </p>
+          <a href="https://drait.edu.in/" class="btn btn-primary"
+            >VISIT WEBSITE</a
+          >
+        </div>
+      </div>
+    </div>
+    <style>
+        body{
+            align-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        .school{
+            height: 188px;
+        }
+      .about {
+        display: flex;
+        height: 400px;
+        width: 100%;
+        margin-top: 0px;
+      }
+      .card {
+        margin: 20px;
+        background-color: rgb(162, 196, 196);
+      }
+      .me {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 125%;
+      }
+      .nev{
+        font-size: 250%;
+        font-family: "Times New Roman", Times, serif;
+        margin-left: 30px;
+      }
+      .pic{
+        width: 140%;
+        height: 100%;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      p{
+        margin-right: 20px;
+        justify-content: center;
+      }
+    </style>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
