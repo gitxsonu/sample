@@ -1,16 +1,21 @@
 body{
-    background-color: rgb(82, 209, 177);
+    background-color:rgb(240, 204, 192);
     
 }
 
 input{
     
     text-align: center;
-    border-radius: 40%;
-    size: 150%;
+    height: 30px;
+    width: 100px;
+   
     
 }
-
+button{
+    height: 30px;
+    width:150px;
+    margin-left: 120px
+}
 
 p{
     font-size: larger;
@@ -21,16 +26,17 @@ h1{
 }
 div{
     align-content: center;
-    background-color: rgba(226, 238, 120, 0.87);
-    height: 300px;
-    width: 600px;
+    background-color: rgb(172, 85, 50);
+    height: 400px;
+    width: 400px;
     padding: 20px;
     margin: 20px;
-    border-radius: 7%;
+    border-radius: 5%;
     margin-left: 28%;
 
 }
 
 label{
     padding-right: 90px;
+    font-size: 200%;
 }
